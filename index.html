@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VENGA VAMOS</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+
+<header>
+  <a href="index.html" class="brand"><b>VENGA VAMOS</b></a>
+  <div class="menu-btn">
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+  </div>
+  <div class="navigation">
+    <div class="navigation-items">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+<div class="landing-section">
+  <h1>SERVED TO LAST</h1>
+  <p>Each bite is a journey of taste and tradition.</p>
+  <a href="about.html" class="btn">Know More</a>
+</div>
+
+<h2 class="testimonial-heading">What We Offer</h2>
+
+<div class="testimonial">
+  <div class="testimonial-content">
+    <img src="assets/Barbacoa Taco.jpg" alt="Barbacoa Taco">
+    <div class="testimonial-text">
+      <h3>BARBACOA</h3>
+      <p class="testimonial-description">Experience the tantalizing flavors of our Barbacoa taco. Slow-cooked to perfection, each bite offers a burst of savory goodness complemented by fresh toppings. Savor the rich taste and indulge in a culinary journey like no other.</p>
+      <blockquote class="testimonial-review">
+        <p>"This is a high-end take-out restaurant disguised as a ghost kitchen. The food there is just amazing. Their tacos are made with the freshest ingredients, and their hand-made, soft-shelled tacos are filled to the brim with beef. I highly recommend the Barbacoa, but the other menus are also worth trying." - Anonymous Food Critique</p>
+      </blockquote>
+      <p class="testimonial-reason">Indulge in our Barbacoa taco for an exquisite dining experience that exceeds expectations.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Placeholder for pic2 -->
+<div class="testimonial">
+  <div class="testimonial-content">
+    <img src="assets/Pulled Pork Taco.jpg" alt="Pulled Pork Taco">
+    <div class="testimonial-text">
+      <h3>PULLED PORK</h3>
+      <p class="testimonial-description">Treat yourself to the mouthwatering flavors of our Pulled Pork taco. Expertly cooked to perfection, this taco offers a symphony of flavors that tantalize your taste buds. Juicy, tender, and bursting with flavor, it's a culinary delight you won't soon forget.</p>
+      <blockquote class="testimonial-review">
+        <p>"Sobrang solid! Di mo talaga aasahan na ganun siya kasarap! Auto-favorite ko na pulled pork!" - Anonymous Review</p>
+      </blockquote>
+      <p class="testimonial-reason">Embark on a flavorful journey with our Pulled Pork taco that promises to leave you craving for more.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Placeholder for pic3 -->
+<div class="testimonial">
+  <div class="testimonial-content">
+    <img src="assets/Quesadilla.jpg" alt="Quesadilla">
+    <div class="testimonial-text">
+      <h3>QUESADILLA</h3>
+      <p class="testimonial-description">Indulge in the cheesy goodness of our Quesadilla. Made with classic melted cheese, fresh tortilla, and delightful toppings like Pico de Gallo, Sour Cream, and Cilantro, it's a flavor explosion in every bite. Satisfy your cravings with our delectable Quesadilla that's perfect for any occasion.</p>
+      <blockquote class="testimonial-review">
+        <p>"The quesadilla is a delight with its delicious melted cheese. The perfect crunch of the wrapper complements the rich, savory goodness, making each bite a satisfying culinary experience." - Anonymous Food Critique</p>
+      </blockquote>
+      <p class="testimonial-reason">Experience the ultimate cheesy goodness at an affordable price with our Quesadilla that promises to elevate your taste buds.</p>
+    </div>
+  </div>
+</div>
+
+<a href="menu.html" class="view-menu-btn">View Menu</a>
+
+<!-- Group Members Section -->
+<section class="group-members">
+  <h2>Our Team</h2>
+  <div class="members-row">
+    <div class="member">
+      <img src="assets/member1.jpg" alt="Member 1">
+      <h3>Kurt Joseph Pecenio</h3>
+      <p>Role: Developer</p>
+    </div>
+    <div class="member">
+      <img src="assets/member2.jpg" alt="Member 2">
+      <h3>Joshua Zane Allanigui</h3>
+      <p>Role: Developer</p>
+    </div>
+    <div class="member">
+      <img src="assets/member3.png" alt="Member 2">
+      <h3>Andrei Calarion</h3>
+      <p>Role: Developer</p>
+    </div>
+    <div class="member">
+      <img src="assets/member4.jpg" alt="Member 2">
+      <h3>Christian Matthew Herrera</h3>
+      <p>Role: Developer</p>
+    </div>
+    <div class="member">
+      <img src="assets/member5.jpg" alt="Member 2">
+      <h3>Josue Miguel Vallo</h3>
+      <p>Role: Developer</p>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const menuBtn = document.querySelector(".menu-btn");
+    const navigation = document.querySelector(".navigation-items");
+  
+    menuBtn.addEventListener("click", function() {
+      navigation.classList.toggle("active");
+    });
+  });
+  </script>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+</head>
+<body>
+
+<header>
+  <a href="#" class="brand"><b>VENGA VAMOS</b></a>
+  <div class="menu-btn">
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+  </div>
+  <div class="navigation">
+    <div class="navigation-items">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</header>
+
+    <!-- Lightbox -->
+    <script src="lightbox-plus-jquery.js">
+
+
+    </script>
+    
+
+
+    <!-- Content -->
+    <h1 style="text-align: center; padding: 20px; color: #fdc63b; font-size: 50px;">Menu</h1>
+    
+    <div class="menu">
+        <div class="images">
+            <a href="assets/Barbacoa Taco.jpg" data-lightbox="food" data-title="Barbacoa Taco - an authentic Mexican dish typically made with beef, goat or lamb. It is traditionally seasoned with dried chilies and spices and slowly cooked until perfectly tender.">
+                <img src="assets/Barbacoa Taco.jpg">
+            </a>
+            <a href="assets/Chicken Inasal Taco.jpg" data-lightbox="food" data-title="Chicken Inasal Taco - commonly known simply as inasal, is a variant of the Filipino chicken dish known as lechon manok. Chicken inasal is a grilled chicken part usually breast or leg while a lechon manok is a stuffed whole chicken.">
+                <img src="assets/Chicken Inasal Taco.jpg">
+            </a>
+            <a href="assets/Lechon Kawali Taco.jpg" data-lightbox="food" data-title="Lechon Kawali Taco - also known as lechon de carajay or litsong kawali in Tagalog, is a Filipino recipe consisting of pork belly slabs deep-fried in a pan or wok. It is seasoned beforehand, cooked then served in cubes.">
+                <img src="assets/Lechon Kawali Taco.jpg">
+            </a>
+            <a href="assets/Nachos.jpg" data-lightbox="food" data-title="Nachos - are a Mexican culinary dish consisting of tortilla chips or totopos covered with cheese or cheese sauce, as well as a variety of other toppings and garnishes, often including meats, vegetables, and condiments such as salsa, guacamole, or sour cream.">
+                <img src="assets/Nachos.jpg">
+            </a>
+            <a href="assets/Pulled Pork Taco.jpg" data-lightbox="food" data-title="Pulled Pork Taco - is an American barbecue dish, more specifically a dish of the Southern U.S., based on shredded barbecued pork shoulder. It is typically slow-smoked over wood; indoor variations use a slow cooker.">
+                <img src="assets/Pulled Pork Taco.jpg">
+            </a>
+            <a href="assets/Quesadilla.jpg" data-lightbox="food" data-title="Quesadilla -  is a Mexican dish consisting of a tortilla that is filled primarily with cheese, and sometimes meats, spices, and other fillings, and then cooked on a griddle or stove. ">
+                <img src="assets/Quesadilla.jpg">
+            </a>
+            <a href="assets/Sisig Taco.jpg" data-lightbox="food" data-title="Sisig Taco -  is a Filipino dish made from pork jowl and ears, pork belly, and chicken liver, which is usually seasoned with calamansi, onions, and chili peppers. It originates from the Pampanga region in Luzon.">
+                <img src="assets/Sisig Taco.jpg">
+            </img>
+        </div>
+    </div>
+    <br>
+    <br>
+
+<!-- Group Members Section -->
+<section class="group-members">
+    <h2>Our Team</h2>
+    <div class="members-row">
+      <div class="member">
+        <img src="assets/member1.jpg" alt="Member 1">
+        <h3>Kurt Joseph Pecenio</h3>
+        <p>Role: Developer</p>
+      </div>
+      <div class="member">
+        <img src="assets/member2.jpg" alt="Member 2">
+        <h3>Joshua Zane Allanigui</h3>
+        <p>Role: Developer</p>
+      </div>
+      <div class="member">
+        <img src="assets/member3.png" alt="Member 2">
+        <h3>Andrei Calarion</h3>
+        <p>Role: Developer</p>
+      </div>
+      <div class="member">
+        <img src="assets/member4.jpg" alt="Member 2">
+        <h3>Christian Matthew Herrera</h3>
+        <p>Role: Developer</p>
+      </div>
+      <div class="member">
+        <img src="assets/member5.jpg" alt="Member 2">
+        <h3>Josue Miguel Vallo</h3>
+        <p>Role: Developer</p>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuBtn = document.querySelector(".menu-btn");
+      const navigation = document.querySelector(".navigation-items");
+    
+      menuBtn.addEventListener("click", function() {
+        navigation.classList.toggle("active");
+      });
+    });
+
+  </script>
+
+
+</body>
+</html>
